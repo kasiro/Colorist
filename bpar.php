@@ -1,6 +1,6 @@
 <?php
 
-$css_code = file_get_contents('./files/my_vars.css');
+$css_code = file_get_contents(__DIR__.'/files/my_vars.css');
 $GLOBALS['cvars'] = [];
 // @require 'file';
 preg_replace_callback('/(--.*): (.*);/m', function ($match) {
@@ -20,4 +20,4 @@ $code = preg_replace_callback('/replace\(((?:(?(R).*|[^)]*+)|(?R))*)\)/m', funct
 	$e64 = base64_encode($d64);
 	return "url(data:image/svg+xml;base64,$e64)";
 }, $code);
-file_put_contents('./files/vars.css', $code);
+file_put_contents(__DIR__.'/files/vars.css', $code);
