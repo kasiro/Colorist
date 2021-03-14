@@ -1,0 +1,39 @@
+:root {
+	/* dark theme: */
+	--theme-dark-color: #232323;
+	--theme-dark-light-color: #363636;
+	--theme-dark-vlight-color: #464646;
+	--online-color: #fff!important;
+
+	 /* dark theme vars: */
+	--base-fg: #fff!important;
+	--darkgray-fg: #fff!important;
+	--base-bg: var(--theme-dark-color)!important;
+	--dialogitem-bg: var(--base-bg)!important;
+	--dialogitem-message-out-fg: var(--gen-color)!important;
+	--dialogitem-selected-bg: var(--theme-dark-light-color)!important;
+	--dialog-message-unread-bg: var(--dialogitem-selected-bg)!important;
+	--dialog-input-bg: var(--dialogitem-selected-bg)!important;
+	--toggle-bg: var(--dialogitem-selected-bg)!important;
+	--toggle-slider-border: var(--dialogitem-selected-bg)!important;
+	--toggle-slider-bg: var(--dialogitem-selected-bg)!important;
+	--dialog-input-ta-border: var(--dialogitem-selected-bg)!important;
+	--dialog-input-ta-bg: var(--theme-dark-vlight-color)!important;
+	--dialog-messages-date-bg: var(--dialogitem-selected-bg)!important;
+	--dialog-history-end-button-bg: var(--dialogitem-selected-bg)!important;
+	--dialog-history-end-button-hover-bg: var(--dialogitem-selected-bg)!important;
+	--dialog-history-end-button-shadow: var(--dialogitem-selected-bg)!important;
+	--popover-bg: var(--theme-dark-color)!important;
+	--context-menu-item-hover-bg: var(--theme-dark-light-color)!important;
+	--accpanel-bg: var(--theme-dark-light-color)!important;
+	--input-search-bg: var(--theme-dark-light-color)!important;
+	--layer-box-bg: var(--theme-dark-color)!important;
+	--hover-bg: var(--theme-dark-vlight-color)!important;
+	--left-border: var(--theme-dark-light-color)!important;
+	--header-border: var(--theme-dark-light-color)!important;
+	--info-list-item-hover-bg: var(--theme-dark-light-color)!important;
+	--menu-hover-bg: var(--theme-dark-light-color)!important;
+	--smiles-box-bg: var(--theme-dark-color)!important;
+	--dialog-history-end-button-shadow: var(--theme-dark-color)!important;
+	--attach-audio-hover-bg: var(--theme-dark-light-color)!important;
+}
